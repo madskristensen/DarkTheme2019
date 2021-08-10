@@ -3,7 +3,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/whlu4aasgq8gj262?svg=true)](https://ci.appveyor.com/project/madskristensen/darktheme2019)
 
 Download the extension at the
-[Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.BlueColorTheme)
+[Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.DarkTheme2019)
 or try the
 [CI build](http://vsixgallery.com/extension/DarkTheme2019.7fa839e2-b938-4b1c-9277-edaebe6fdeb5/).
 
