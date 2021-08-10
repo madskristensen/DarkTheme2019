@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="DarkTheme2019.7fa839e2-b938-4b1c-9277-edaebe6fdeb5" Version="1.0" Language="en-US" Publisher="Mads Kristensen" />
+    <DisplayName>Dark Theme (2019)</DisplayName>
+    <Description xml:space="preserve">The Dark Theme from Visual Studio 2019 ported to Visual Studio 2022 for those who prefers the old theme.</Description>
+    <MoreInfo>https://github.com/madskristensen/DarkTheme2019</MoreInfo>
+    <License>Resources\LICENSE</License>
+    <Icon>Resources\icon.png</Icon>
+    <PreviewImage>Resources\icon.png</PreviewImage>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+  </Installation>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
+</PackageManifest>
