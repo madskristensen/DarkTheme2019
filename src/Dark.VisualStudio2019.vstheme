@@ -1206,7 +1206,7 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="inline hints">
-        <Background Type="CT_INVALID" Source="00000000" />
+        <Background Type="CT_RAW" Source="FF39393B" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="Inline Rename Field Text">
