@@ -2923,6 +2923,13 @@
       <Color Name="PageBackground">
         <Background Type="CT_RAW" Source="FF000000" />
       </Color>
+      <Color Name="StatusBannerWarning">
+        <Background Type="CT_RAW" Source="FF433519" />
+        <Foreground Type="CT_RAW" Source="FFFCE100" />
+      </Color>
+      <Color Name="StatusBannerWarningBorder">
+        <Foreground Type="CT_RAW" Source="FFFCE100" />
+      </Color>
     </Category>
     <Category Name="CommonDocumentCard" GUID="{2e129498-0d2d-43ca-94d6-c652c0132543}">
       <Color Name="CardIllustrationFill1">
