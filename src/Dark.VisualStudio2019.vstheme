@@ -44,7 +44,11 @@
         <Foreground Type="CT_RAW" Source="FF3F3F46" />
       </Color>
     </Category>
-    <Category Name="ColorizedSignatureHelp colors" GUID="{75a05685-00a8-4ded-bae5-e7a50bfa929a}">
+    <!--
+    <Category Name="AI" GUID="{7730ec54-ee62-4fd2-86cc-77071aabb206}">
+    </Category>
+    -->
+    <Category Name="Text Editor MEF Items" GUID="{75a05685-00a8-4ded-bae5-e7a50bfa929a}">
       <Color Name="axml - attribute name">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FF92CAF4" />
@@ -1389,6 +1393,10 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
     </Category>
+    <!--
+    <Category Name="Chat" GUID="{9e237087-2ccf-49c1-8c85-974b201581e3}">
+    </Category>
+    -->
     <Category Name="Cider" GUID="{92d153ee-57d7-431f-a739-0931ca3f7f70}">
       <Color Name="ToolWindow">
         <Background Type="CT_RAW" Source="FF252526" />
@@ -2187,7 +2195,7 @@
         <Foreground Type="CT_RAW" Source="FF90EE90" />
       </Color>
     </Category>
-    <Category Name="CodeSense" GUID="{fc88969a-cbed-4940-8f48-142a503e2381}">
+    <Category Name="CodeLens" GUID="{fc88969a-cbed-4940-8f48-142a503e2381}">
       <Color Name="IndicatorText">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FF999999" />
@@ -3370,6 +3378,10 @@
         <Background Type="CT_RAW" Source="FF999999" />
       </Color>
     </Category>
+    <!--
+    <Category Name="Decorative" GUID="{0c37665d-8581-4451-8394-6f4d5abd88b1}">
+    </Category>
+    -->
     <Category Name="DataGrid" GUID="{925b1226-26e5-47e0-9d0d-673301e557fb}">
       <Color Name="HeaderBackground">
         <Background Type="CT_RAW" Source="FF252526" />
@@ -3530,12 +3542,16 @@
         <Background Type="CT_RAW" Source="FF656565" />
       </Color>
     </Category>
-    <Category Name="Editor Tooltip" GUID="{a9a5637f-b2a8-422e-8fb5-dfb4625f0111}">
+    <Category Name="ToolTips" GUID="{a9a5637f-b2a8-422e-8fb5-dfb4625f0111}">
       <Color Name="Plain Text">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FFF1F1F1" />
       </Color>
     </Category>
+    <!--
+    <Category Name="EditorOverride" GUID="{656339d7-0e39-43e2-98aa-becc3f87ffa5}">
+    </Category>
+    -->
     <Category Name="Environment" GUID="{624ed9c3-bdfd-41fa-96c3-7c824ea32e3d}">
       <Color Name="ActiveBorder">
         <Background Type="CT_RAW" Source="FF3F3F46" />
@@ -7436,7 +7452,15 @@
         <Foreground Type="CT_RAW" Source="FFF1F1F1" />
       </Color>
     </Category>
-    <Category Name="SQL Results - Grid" GUID="{6202ff3e-488e-4ead-92cb-be089659f8d7}">
+    <!--
+    <Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
+    </Category>
+    -->
+    <!--
+    <Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
+    </Category>
+    -->
+    <Category Name="SqlResultsGrid" GUID="{6202ff3e-488e-4ead-92cb-be089659f8d7}">
       <Color Name="Header Row">
         <Background Type="CT_RAW" Source="FF252526" />
         <Foreground Type="CT_INVALID" Source="00000000" />
@@ -7458,7 +7482,7 @@
         <Foreground Type="CT_RAW" Source="FFF1F1F1" />
       </Color>
     </Category>
-    <Category Name="SQL Results - Text" GUID="{587d0421-e473-4032-b214-9359f3b7bc80}">
+    <Category Name="SqlResultsText" GUID="{587d0421-e473-4032-b214-9359f3b7bc80}">
       <Color Name="Plain Text">
         <Background Type="CT_RAW" Source="FF2D2D30" />
         <Foreground Type="CT_RAW" Source="FFF1F1F1" />
@@ -9087,6 +9111,14 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
     </Category>
+    <!--
+    <Category Name="TextVisualizer" GUID="{036d356b-f2fe-45f8-bceb-7fcc4daf2023}">
+    </Category>
+    -->
+    <!--
+    <Category Name="ThemedAcceleratedDialog" GUID="{a2859846-e4aa-452d-ac41-8cc0e4e72e4c}">
+    </Category>
+    -->
     <Category Name="ThemedDialog" GUID="{5e04b2a9-e443-48db-8791-63a2a71cfbd7}">
       <Color Name="ListBox">
         <Background Type="CT_RAW" Source="FF252526" />
@@ -9831,32 +9863,6 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
     </Category>
-    <Category Name="WebClient Diagnostic Tools" GUID="{2aa714ae-53be-4393-84e0-dc95b57a1891}">
-      <Color Name="Plain Text">
-        <Background Type="CT_RAW" Source="FF2D2D30" />
-        <Foreground Type="CT_RAW" Source="FFF1F1F1" />
-      </Color>
-      <Color Name="Console Input Text">
-        <Background Type="CT_RAW" Source="FF2D2D30" />
-        <Foreground Type="CT_RAW" Source="FF569CD6" />
-      </Color>
-      <Color Name="Console Output Text">
-        <Background Type="CT_RAW" Source="FF2D2D30" />
-        <Foreground Type="CT_RAW" Source="FFF1F1F1" />
-      </Color>
-      <Color Name="Console Info Text">
-        <Background Type="CT_RAW" Source="FF2D2D30" />
-        <Foreground Type="CT_RAW" Source="FF9CDCFE" />
-      </Color>
-      <Color Name="Console Error Text">
-        <Background Type="CT_RAW" Source="FF2D2D30" />
-        <Foreground Type="CT_RAW" Source="FFFF6666" />
-      </Color>
-      <Color Name="Console Warning Text">
-        <Background Type="CT_RAW" Source="FF2D2D30" />
-        <Foreground Type="CT_RAW" Source="FFFEFCC8" />
-      </Color>
-    </Category>
     <Category Name="WelcomeExperience" GUID="{df76799d-28de-4975-81af-3357270f57eb}">
       <Color Name="WelcomeExperienceButtonMousedownBackground">
         <Background Type="CT_RAW" Source="FF007ACC" />
@@ -9919,6 +9925,10 @@
         <Background Type="CT_RAW" Source="FF000000" />
       </Color>
     </Category>
+    <!--
+    <Category Name="WindowsTemplateStudio" GUID="{9c63f223-700a-4418-8a5a-cd450f05f593}">
+    </Category>
+    -->
     <Category Name="WorkflowDesigner" GUID="{e0f1945b-b965-47dc-b22e-3e26a895c895}">
       <Color Name="WorkflowViewElementSelectedBorder">
         <Background Type="CT_RAW" Source="FF7ABAFA" />
