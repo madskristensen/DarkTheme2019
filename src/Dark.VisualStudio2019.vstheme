@@ -9249,10 +9249,10 @@
         <Background Type="CT_RAW" Source="FF333337" />
       </Color>
       <Color Name="ActionButtonStrokeHover">
-        <Background Type="CT_RAW" Source="FF333337" />
+        <Background Type="CT_RAW" Source="FF007ACC" />
       </Color>
       <Color Name="ActionButtonStrokeActive">
-        <Background Type="CT_RAW" Source="FFFFFFFF" />
+        <Background Type="CT_RAW" Source="FF007ACC" />
       </Color>
       <Color Name="ActionButtonText">
         <Background Type="CT_RAW" Source="FFFFFFFF" />
@@ -9280,6 +9280,12 @@
       <Color Name="TemplateNewTagSelected">
         <Background Type="CT_RAW" Source="FFFFFFFF" />
         <Foreground Type="CT_RAW" Source="FF1E1E1E" />
+      </Color>
+      <Color Name="ActionButtonBackgroundActive">
+        <Background Type="CT_RAW" Source="FF333337" />
+      </Color>
+      <Color Name="HyperlinkOnListItemHover">
+        <Background Type="CT_RAW" Source="FF006CBE" />
       </Color>
     </Category>
     <Category Name="ThemedUtilityDialog" GUID="{e2961a72-48a5-4da7-8168-1fee490f78a7}">
