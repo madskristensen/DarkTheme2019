@@ -1,5 +1,5 @@
 <Themes>
-  <Theme Name="Dark (2019)" GUID="{2608e5c1-8eb2-4483-b34c-2afb274fa564}">
+  <Theme Name="Dark (2019)" GUID="{2608e5c1-8eb2-4483-b34c-2afb274fa564}" BaseGUID="{1ded0138-47ce-435e-84ef-9ec1f439b749">
     <Category Name="ACDCOverview" GUID="{c8887ac6-3c60-4209-9d69-8f4c12a60044}">
       <Color Name="Body">
         <Background Type="CT_RAW" Source="FF252526" />
